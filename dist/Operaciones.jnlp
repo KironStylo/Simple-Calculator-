@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Operaciones.jnlp">
+  <information>
+    <title>Operaciones</title>
+    <vendor>santi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Operaciones.jar" size="4542" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="Controlador.Operaciones"  name="Operaciones" />
+  <update check="always"/>
+</jnlp>
